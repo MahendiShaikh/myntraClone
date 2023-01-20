@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+}
+
+.image{
+    height: auto;
+    width: auto;
+}
+
+.header{
+    margin-bottom:1px;
+}
+
+.left img{
+    width: 35px;
+    height: 30px;
+}
+
+.left li a {
+    text-decoration: none;
+    color: black;
+}
+
+.left li a:hover{
+    text-decoration: underline;
+}
+
+.right li a {
+    text-decoration: none;
+    color: black;
+}
+
+.right li a:hover{
+    text-decoration: underline;
+}
+
+.left ul li{
+    list-style: none;
+    padding: 0 10px;
+    font-weight: bolder;
+}
+
+.right ul li{
+    list-style: none;
+    
+}
+
+.input-icon{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.search-item{
+    width:20vw;
+    padding: 10px 50px 7px;
+    height:20px;
+    background-color:rgb(234, 231, 231);
+    border: none;
+}
+
+.section{
+    background-color:#f5f0f0;
+    height:auto;
+}
+
+.image-2{
+    margin-top:3px;
+    width:90vw;
+
+}
+
+.image-3{
+    width:98vw;
+}
+
+.image-4{
+    width:10vw;
+    padding-left:10px; 
+}
+
+
+.image-5{
+    width:98vw;
+    height:auto;
+    margin-top:30px;
+}
+
+.rightbox{
+    display: flex;
+    margin:12px;
+}
+
+/*-----------MEDIA QUERIES-----------*/
+
+@media (max-width:1220px) {
+    header{
+        height: 120px;
+    }
+
+    nav ul li{
+        list-style: none;
+        padding: 0 4px;
+        font-size: 10px;
+    }
+
+    nav{
+        flex-direction:column;
+        align-items: center;
+    }
+
+    .search-item{
+        padding-bottom: 2px;
+        padding-top: 2px;
+        width: auto;
+    }
+
+    .containerHeader{
+        padding: 0 2vw;
+    }
+
+    .right{
+        flex-direction: column;
+    }
+
+    .rightbox{
+    display: flex;
+    margin:6px;
+    }
+    
+    .right ul{
+        margin-top:2px;
+    } 
+}
