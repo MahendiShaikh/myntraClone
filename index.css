@@ -137,4 +137,8 @@ body{
     .right ul{
         margin-top:2px;
     } 
+    
+     footer{
+        width: auto;
+    }
 }
